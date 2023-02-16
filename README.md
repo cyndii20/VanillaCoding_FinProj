@@ -3,8 +3,5 @@
 #### 강의 : 바닐라 코딩 Strter-Kit
 ### Step 5 : Final Projects 코드
 
-1. Link: [Number Baseball][link]
-
-[googlelink]: https://google.com "Go google"
-1. Number Baseball
+1. [Number Baseball](#Baseball-Boilerplate)
 2. Calendar
