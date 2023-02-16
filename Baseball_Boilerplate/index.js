@@ -27,7 +27,8 @@ form.addEventListener("submit", (e) => {
   if (chance >= 10) {
     start.classList.add("hidden");
     finish.classList.remove("hidden");
-    restartBtn.classList.remove("hidden");
+    const winner = document.getElementById("winner");
+    winner.classList.add("hidden");
   }
 
   if (val < 100 || val > 999) {
@@ -44,9 +45,16 @@ form.addEventListener("submit", (e) => {
         }
       }
     }
-    ball -= strike;
   }
 
+  if (strike === 3) {
+    start.classList.add("hidden");
+    finish.classList.remove("hidden");
+    const gameOver = document.getElementById("gameOver");
+    gameOver.classList.add("hidden");
+  }
+
+  ball -= strike;
   const strikeRes = document.getElementById("strike");
   const ballRes = document.getElementById("ball");
 

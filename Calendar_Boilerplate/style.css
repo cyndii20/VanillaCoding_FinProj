@@ -1,0 +1,68 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.image-box img {
+  width: 150px;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.calendar {
+  justify-content: center;
+  text-align: center;
+}
+
+.calWrapper table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#currDay {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#currDate {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.monthAndYear {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.leftBtn {
+  margin-right: 30px;
+}
+.rightBtn {
+  margin-left: 30px;
+}
